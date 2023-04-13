@@ -26,7 +26,7 @@ class TextureNode extends UniformNode {
 
 	getNodeType( /*builder*/ ) {
 
-		if ( this.value.isDepthTexture === true ) return 'float';
+		/*if ( this.value.isDepthTexture === true ) return 'float';*/
 
 		return 'vec4';
 
